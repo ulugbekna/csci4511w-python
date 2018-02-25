@@ -147,6 +147,6 @@ end = time.time()
 print('time elapsed: ' + str(end - start) + ' seconds')
 
 
-# todo: leading letters should not be 0's
+# todo: leading letters should not be 0's (I moved 0 to the end when initiating values dict, so somewhat completed)
 # todo: how to make it faster (?)
 
