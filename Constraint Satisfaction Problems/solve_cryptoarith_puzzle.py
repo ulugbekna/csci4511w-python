@@ -1,16 +1,19 @@
-'''
-solving_cryptoarith_puzzle.py solves cryptoarithmetic puzzles, e.g. send+more=money, where each
-letter is uniquely mapped to a digit. The program was encouraged by "Artificial Intelligence: A Modern Approach" by
-Peter Norvig and Stuart Russell and Peter Norvig's "Solving Every Sudoku Puzzle".
-'''
+# solving_cryptoarith_puzzle.py solves cryptoarithmetic puzzles, e.g. send+more=money, where each
+# letter is uniquely mapped to a digit. The program was encouraged by "Artificial Intelligence: A Modern Approach" by
+# Peter Norvig and Stuart Russell and Peter Norvig's "Solving Every Sudoku Puzzle".
+#
+# How to use:
+#
+# Run with python3.
+
 
 import time
 
 # input
-addend_1 = input('1st addend: ')
-addend_2 = input('2nd addend: ')
+addend_1 = input('1st addend word (e.g. send): ')
+addend_2 = input('2nd addend word (e.g. more): ')
 
-summand = input('summand: ')
+summand = input('summand word (e.g. money): ')
 
 print('working on that...')
 
